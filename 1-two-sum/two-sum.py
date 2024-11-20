@@ -8,6 +8,5 @@ class Solution:
             if reminder in visited:
                 return [visited[reminder], index]
 
-            visited[num] = index
-
+            visited[num] = index # store this as visited, so that we can lookup later
         
