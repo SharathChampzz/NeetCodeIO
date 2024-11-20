@@ -9,4 +9,3 @@ class Solution:
                 return True # duplicate found
 
         return False
-        
